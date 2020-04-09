@@ -236,7 +236,7 @@ div[class^='tag-'] p {
     margin-top: 7px;
 }
 
-div[class^='bar-']{
+div[class^='bar-'] {
     position: absolute;
     background-color: #48CFAD;
     height: 10px;
