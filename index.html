@@ -144,9 +144,9 @@
     <div class="container work" id="work">
         <h1>Work</h1>
         <div class="work-category">
-            <button id="designing" class="active">Web Designing</button>
-            <button id="animation">Web Animation</button>
-            <button id="project">React Projects</button>
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+            <button id="animation" onclick="showRequiredCategory(this)">Web Animation</button>
+            <button id="project" onclick="showRequiredCategory(this)">React Projects</button>
         </div>
         <div class="category-designing showCategory">
             <a href=""><img src="img/ping_1.png"></a>
@@ -155,12 +155,12 @@
             <a href=""><img src="img/ping_2.png"></a>
             <a href=""><img src="img/ping_3.jpg"></a>
         </div>
-        <div class="category-designing hideCategory">
+        <div class="category-animation hideCategory">
             <a href=""><img src="img/ping_1.png"></a>
             <a href=""><img src="img/ping_2.png"></a>
             <a href=""><img src="img/ping_3.jpg"></a>
         </div>
-        <div class="category-designing hideCategory">
+        <div class="category-project hideCategory">
             <a href=""><img src="img/ping_1.png"></a>
             <a href=""><img src="img/ping_2.png"></a>
             <a href=""><img src="img/ping_3.jpg"></a>
@@ -174,8 +174,8 @@
             <input type="text" name="name" placeholder="Full Name">
             <input type="email" placeholder="Email">
             <input type="email" placeholder="KrestikovAleksandr@gmail.com" disabled>
-            <textarea name="message" id="30" cols="30" rows="10" placeholder="Messge"></textarea>
-            <input type="sumbit">
+            <textarea name="message" cols="30" rows="10" placeholder="Messge"></textarea>
+            <input type="sumbit" placeholder="sumbit">
         </form>
     </div>
     <footer>
@@ -184,7 +184,7 @@
     </footer>
 
 
-    <script src="js/animation.gsao.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
     <script src="js/CSSPlugin.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/ScrollMagic.min.js"></script>
